@@ -23,6 +23,10 @@ export function normalizeForKaTeX(str: string) {
   return replaced
 }
 
+function removeTextWrap(str: string) {
+  return str.replace(/\\text\s*\{\s*(\\dot\{[^{}]+\})\s*\}/g, '$1')
+}
+
 export function extractAllBetweenBrackets(str: string) {
   const regex = /\\\[(.*?)\\\]/gs // g 全局，s 点号匹配换行
   const results = []
@@ -30,5 +34,5 @@ export function extractAllBetweenBrackets(str: string) {
   while ((match = regex.exec(str)) !== null) {
     results.push(match[1])
   }
-  return results.join('') // 返回所有匹配的内容连接成一个字符串
+  return removeTextWrap(results.join('')) // 返回所有匹配的内容连接成一个字符串
 }
