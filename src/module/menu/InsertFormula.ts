@@ -17,6 +17,7 @@ import { SIGMA_SVG } from '../../constants/icon-svg'
 import $, { Dom7Array, DOMElement } from '../../utils/dom'
 import { genRandomStr } from '../../utils/util'
 import { FormulaElement } from '../custom-types'
+import { normalizeForKaTeX, extractAllBetweenBrackets } from './utils'
 
 /**
  * 生成唯一的 DOM ID
@@ -88,7 +89,8 @@ class InsertFormulaMenu implements IModalMenu {
       // 绑定事件（第一次渲染时绑定，不要重复绑定）
       $content.on('click', `#${buttonId}`, e => {
         e.preventDefault()
-        const value = $content.find(`#${textareaId}`).val().trim()
+        let value = $content.find(`#${textareaId}`).val().trim()
+        value = extractAllBetweenBrackets(value)
         this.insertFormula(editor, value)
         editor.hidePanelOrModal() // 隐藏 modal
       })

@@ -1,6 +1,6 @@
 {
-  "name": "@wangeditor/plugin-formula",
-  "version": "1.0.11",
+  "name": "gu-plugin-formula",
+  "version": "1.0.12",
   "description": "wangEditor formula 公式",
   "repository": {
     "type": "git",
@@ -20,6 +20,9 @@
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/src/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "cross-env NODE_OPTIONS=--unhandled-rejections=warn jest --detectOpenHandles --passWithNoTests",
     "test-c": "cross-env NODE_OPTIONS=--unhandled-rejections=warn jest --coverage",
