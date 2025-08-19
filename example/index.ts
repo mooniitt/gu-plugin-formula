@@ -3,7 +3,7 @@
  * @author wangfupeng
  */
 
-import { createEditor, createToolbar, Boot, i18nChangeLanguage } from '@wangeditor/editor'
+import { createEditor, createToolbar, Boot, i18nChangeLanguage } from '@wangeditor-kai/editor'
 import module from '../src/index'
 
 Boot.registerModule(module)

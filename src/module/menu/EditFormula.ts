@@ -3,7 +3,7 @@
  * @author wangfupeng
  */
 
-import { IModalMenu } from '@wangeditor/editor'
+import { IModalMenu } from '@wangeditor-kai/editor'
 import {
   DomEditor,
   IDomEditor,
@@ -13,7 +13,7 @@ import {
   t,
   genModalTextareaElems,
   genModalButtonElems,
-} from '@wangeditor/editor'
+} from '@wangeditor-kai/editor'
 import { PENCIL_SVG } from '../../constants/icon-svg'
 import $, { Dom7Array, DOMElement } from '../../utils/dom'
 import { genRandomStr } from '../../utils/util'

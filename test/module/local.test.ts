@@ -4,7 +4,7 @@
  */
 
 import '../../src/module/local'
-import { i18nChangeLanguage, t } from '@wangeditor/editor'
+import { i18nChangeLanguage, t } from '@wangeditor-kai/editor'
 
 describe('local', () => {
   it('zh-CN', () => {

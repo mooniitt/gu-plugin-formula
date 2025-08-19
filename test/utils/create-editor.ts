@@ -3,7 +3,7 @@
  * @author wangfupeng
  */
 
-import { createEditor } from '@wangeditor/editor'
+import { createEditor } from '@wangeditor-kai/editor'
 
 export default function (options: any = {}) {
   const container = document.createElement('div')

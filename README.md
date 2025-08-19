@@ -20,7 +20,7 @@ yarn add @wangeditor/plugin-formula
 ### 注册到编辑器
 
 ```js
-import { Boot, IEditorConfig, IToolbarConfig } from '@wangeditor/editor'
+import { Boot, IEditorConfig, IToolbarConfig } from '@wangeditor-kai/editor'
 import formulaModule from '@wangeditor/plugin-formula'
 
 // 注册。要在创建编辑器之前注册，且只能注册一次，不可重复注册。

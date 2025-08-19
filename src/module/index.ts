@@ -5,7 +5,7 @@
 
 import './local' // 多语言
 
-import { IModuleConf } from '@wangeditor/editor'
+import { IModuleConf } from '@wangeditor-kai/editor'
 import withFormula from './plugin'
 import renderElemConf from './render-elem'
 import elemToHtmlConf from './elem-to-html'

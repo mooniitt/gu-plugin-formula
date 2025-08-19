@@ -4,7 +4,7 @@
  */
 
 import { DOMElement } from '../utils/dom'
-import { IDomEditor, SlateDescendant, SlateElement } from '@wangeditor/editor'
+import { IDomEditor, SlateDescendant, SlateElement } from '@wangeditor-kai/editor'
 import { FormulaElement } from './custom-types'
 
 function parseHtml(

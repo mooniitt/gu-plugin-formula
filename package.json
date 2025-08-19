@@ -1,6 +1,6 @@
 {
   "name": "gu-plugin-formula",
-  "version": "1.0.13",
+  "version": "1.0.16",
   "description": "wangEditor formula 公式",
   "repository": {
     "type": "git",
@@ -61,7 +61,7 @@
     "@types/katex": "^0.11.1",
     "@typescript-eslint/eslint-plugin": "^5.12.0",
     "@typescript-eslint/parser": "^5.12.0",
-    "@wangeditor/editor": "^5.0.0",
+    "@wangeditor-kai/editor": "^5.0.0",
     "autoprefixer": "^10.2.5",
     "babel-jest": "^27.3.1",
     "babel-loader": "^8.2.2",
@@ -83,6 +83,7 @@
     "less": "^4.1.1",
     "less-loader": "^8.0.0",
     "lint-staged": "^12.3.4",
+    "minimatch": "^10.0.3",
     "postcss-loader": "^5.2.0",
     "prettier": "^2.5.1",
     "raw-loader": "^4.0.2",
@@ -100,7 +101,7 @@
     "webpack-merge": "^5.7.3"
   },
   "peerDependencies": {
-    "@wangeditor/editor": ">=5.0.0",
+    "@wangeditor-kai/editor": ">=5.0.0",
     "katex": "^0.15.2",
     "snabbdom": "^3.3.1"
   },

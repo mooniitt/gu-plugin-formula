@@ -21,7 +21,7 @@ yarn add @wangeditor/plugin-formula
 
 
 ```js
-import { Boot, IEditorConfig, IToolbarConfig } from '@wangeditor/editor'
+import { Boot, IEditorConfig, IToolbarConfig } from '@wangeditor-kai/editor'
 import formulaModule from '@wangeditor/plugin-formula'
 
 // Register

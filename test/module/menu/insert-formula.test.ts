@@ -3,7 +3,7 @@
  * @author wangfupeng
  */
 
-import { SlateEditor } from '@wangeditor/editor'
+import { SlateEditor } from '@wangeditor-kai/editor'
 import createEditor from '../../utils/create-editor'
 import { FormulaElement } from '../../../src/module/custom-types'
 import InsertFormulaMenu from '../../../src/module/menu/InsertFormula'

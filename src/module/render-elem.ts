@@ -4,7 +4,7 @@
  */
 
 import { h, VNode } from 'snabbdom'
-import { DomEditor, IDomEditor, SlateElement } from '@wangeditor/editor'
+import { DomEditor, IDomEditor, SlateElement } from '@wangeditor-kai/editor'
 import { FormulaElement } from './custom-types'
 
 function renderFormula(elem: SlateElement, children: VNode[] | null, editor: IDomEditor): VNode {
